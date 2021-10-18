@@ -19,14 +19,16 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
   <title>php badword</title>
 </head>
 <body>
+  
+  <h3>Normal version</h3>
   <p>
-    <h3>Normal version</h3>
     <?php echo $text ?> <br>
     (lunghezza: <?php echo strlen($text) ?>)
   </p>  
   <hr>
+
+  <h3>Censored version</h3>
   <p>
-    <h3>Censored version</h3>
     <?php echo $consoredText ?> <br>
     (lunghezza: <?php echo strlen($consoredText) ?>)
   </p>
