@@ -27,6 +27,12 @@ Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre 
   </p>  
   <hr>
 
+  <h3>input word to be censored:</h3>
+  <form>
+    <input type="text" name="badword" id="badword_input">
+    <button>replace</button>
+  </form>
+
   <h3>Censored version</h3>
   <p>
     <?php echo $consoredText ?> <br>
